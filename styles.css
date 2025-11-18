@@ -1,0 +1,173 @@
+body{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #1F2937;
+    background-color: white;
+}
+
+.section{
+    padding: 100px 15vw;
+}
+
+.header,
+.footer{
+    padding: 30px 15vw;
+}
+
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext{
+    font-size: 18px;
+}
+
+.subtitle{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.promotion,
+button.sign-up{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.introduction .subtext{
+    margin: 1em 0;
+}
+
+button.sign-up{
+    font-weight: bold;
+    padding: 0.5em 2em;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+    
+.header,
+.introduction,
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+.header-link-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 3em;    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.left,
+.right{
+    flex: 1;    
+}
+
+.content,
+.quote{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+
+.right{
+    background-color: gray;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-container{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-with-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-with-text .subtext{
+    text-align: center;
+}
+
+.image-with-text img{
+    border-radius: 20px;
+    border: 3px #3882F6 solid;
+    flex: 1;
+    aspect-ratio: 1/1;
+    object-fit: cover
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.quote-origin{
+    font-weight: bold;
+    text-align: end;
+    font-size: larger;
+}
+
+.promotion-header,
+.quote-origin{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.promotion{
+    margin: 150px 15vw;
+    padding: 50px 5vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.promotion button.sign-up{
+    border: 2px #E5E7EB solid;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+
